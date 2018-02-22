@@ -14,6 +14,8 @@ STSFineGrain includes the following models:
 4. POS-TF STSS
 
 Please see the References section for papers describing all of the aforementioned models.
+Note that POST STSS and POS-TF STSS rely on a language-specific POS weighting scheme. The STSFineGrain package currently supports applying these models to texts in Serbian and English.
+Other implemented models do not have such language-related restrictions.
 
 All models expect the input text to be formatted in UTF-8. The term frequency calculation output is also encoded in UTF-8, while model evaluation outputs are ANSI-encoded.
 
@@ -57,7 +59,7 @@ java -jar STSFineGrain.jar 1 STSModelIndexNo EvaluationModeIndexNo LanguageCode 
     2. Evaluation is performed using cross-validation on the dataset specified through arguments STSCorpusRawTextPath and STSCorpusScoresPath. This is suitable for both supervised and unsupervised models. The standard number of CV folds is 10, but this setting can be changed in the code of the Evaluator class.
 * *LanguageCode* - the two-letter ISO code specifying the language of the texts used. Currently, Serbian ("SR") and English ("EN") are supported.
 * *STSCorpusRawTextsPath* - the path to the raw text file of the STS corpus to be used. Each line of the text file should contain the sentences of a pair, separated with a tab.
-* *STSCorpusScoresPath* - the path to the score file of the STS corpus to be used. Each line of the file should contain the score of the corresponding line pair in the file specified by the *STSCorpusRawTextsPath* argument. The score file can also contain other information, but the score has to be the first item in a row, separated from other data with a tab.
+* *STSCorpusScoresPath* - the path to the score file of the STS corpus to be used. Each line of the file should contain the fine-grained similarity score of the corresponding line pair in the file specified by the *STSCorpusRawTextsPath* argument. The score file can also contain other information, but the score has to be the first item in a row, separated from other data with a tab.
 * *Word2VecVectorsPath* - the path to the word2vec vector file that is used by all implemented STS models except the word overlap method. The vector file must be saved in the original C word2vec tool format. For the word overlap method, this argument is ignored.
 * *TermFrequenciesPath* - the path to the term frequencies file created by this program. Term frequencies are only used for the LInSTSS and the POS-TF STSS models - for other models, this argument is ignored.
 * *STSCorpusMSDorPOSPath* - the path to the STS corpus MSD/POS tags file. Each line of the text file should contain the tags of a pair of sentences, and sentences in a pair should be separated with a tab. The number of tags in a sentence should be identical to the number of tokens (not counting punctuation, which is eliminated in the text-cleaning phase). POS/MSD tags are only used for the POST STSS and the POS-TF STSS models - for other models, this argument is ignored.
