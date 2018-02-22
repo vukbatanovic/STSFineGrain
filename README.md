@@ -8,10 +8,10 @@ STSFineGrain includes the following models:
 3. Mixture of models 1 and 2
 
 #### Supervised models
-4. Islam and Inkpen
-5. LInSTSS
-6. POST STSS
-7. POS-TF STSS
+1. Islam and Inkpen
+2. LInSTSS
+3. POST STSS
+4. POS-TF STSS
 
 Please see the References section for papers describing all of the aforementioned models.
 
