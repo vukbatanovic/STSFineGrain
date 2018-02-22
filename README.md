@@ -47,16 +47,16 @@ java -jar STSFineGrain.jar 1 STSModelIndexNo EvaluationModeIndexNo LanguageCode 
 ```
 
 * *STSModelIndexNo* is an integer in the 1-7 range that specifies the STS model to be used. The mapping between index numbers and STS models is as follows:
-    1. Word overlap
-    2. Mean of word2vec word vectors
-    3. Mixture of models 1 and 2
-    4. Islam and Inkpen method
-    5. LInSTSS
-    6. POST STSS
-    7. POS-TF STSS
+    * 1 - Word overlap
+    * 2 - Mean of word2vec word vectors
+    * 3 - Mixture of models 1 and 2
+    * 4 - Islam and Inkpen method
+    * 5 - LInSTSS
+    * 6 - POST STSS
+    * 7 - POS-TF STSS
 * *EvaluationModeIndexNo* can be either 1 or 2:
-    1. Evaluation is performed on the entire dataset specified through arguments STSCorpusRawTextPath and STSCorpusScoresPath. This is only suitable for unsupervised models.
-    2. Evaluation is performed using cross-validation on the dataset specified through arguments STSCorpusRawTextPath and STSCorpusScoresPath. This is suitable for both supervised and unsupervised models. The standard number of CV folds is 10, but this setting can be changed in the code of the Evaluator class.
+    * 1 - Evaluation is performed on the entire dataset specified through arguments STSCorpusRawTextPath and STSCorpusScoresPath. This is only suitable for unsupervised models.
+    * 2 - Evaluation is performed using cross-validation on the dataset specified through arguments STSCorpusRawTextPath and STSCorpusScoresPath. This is suitable for both supervised and unsupervised models. The standard number of CV folds is 10, but this setting can be changed in the code of the Evaluator class.
 * *LanguageCode* - the two-letter ISO code specifying the language of the texts used. Currently, Serbian ("SR") and English ("EN") are supported.
 * *STSCorpusRawTextsPath* - the path to the raw text file of the STS corpus to be used. Each line of the text file should contain the sentences of a pair, separated with a tab.
 * *STSCorpusScoresPath* - the path to the score file of the STS corpus to be used. Each line of the file should contain the fine-grained similarity score of the corresponding line pair in the file specified by the *STSCorpusRawTextsPath* argument. The score file can also contain other information, but the score has to be the first item in a row, separated from other data with a tab.
