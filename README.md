@@ -6,6 +6,7 @@ STSFineGrain includes the following models:
 1. Word overlap
 2. Mean of word2vec word vectors
 3. Mixture of models 1 and 2
+
 #### Supervised models
 4. Islam and Inkpen
 5. LInSTSS
