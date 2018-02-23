@@ -99,8 +99,8 @@ public class SrPOSMapping extends POSMapping {
 			}
 		
 		cnt = 0;
-		for (int i=0; i<29; i++)
-			for (int j=i+1; j<30; j++) {
+		for (int i=0; i<28; i++)
+			for (int j=i+1; j<29; j++) {
 				posPairingIndexMappingHighDim.put(i + " " + j, cnt);
 				posPairingIndexMappingHighDimI.put(cnt, i);
 				posPairingIndexMappingHighDimJ.put(cnt++, j);
