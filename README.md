@@ -19,6 +19,8 @@ Other implemented models do not have such language-related restrictions.
 
 All models expect the input text to be formatted in UTF-8. The term frequency calculation output is also encoded in UTF-8, while model evaluation outputs are ANSI-encoded.
 
+Fine-grained gold standard similarity scores are required in the evaluation of all models and the training of supervised ones.
+
 ## Command-line interface
 The supplied [STSFineGrain.jar](https://github.com/vukbatanovic/STSFineGrain/releases/download/v1.0.0/STSFineGrain.jar) file makes it possible to use the STSFineGrain framework from the command line.
 The framework is invoked using the following general command form:
