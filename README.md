@@ -1,4 +1,4 @@
-# STSFineGrain - a collection of STS models and a framework for their evaluation on fine-grained STS corpora
+# STSFineGrain - a collection of STS models and a framework for their evaluation on STS corpora with fine-grained similarity scores
 This package contains Java implementations of three baseline unsupervised STS models and four bag-of-words supervised STS models.
 STSFineGrain includes the following models:
 
