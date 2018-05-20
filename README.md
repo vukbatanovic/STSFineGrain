@@ -69,7 +69,7 @@ java -jar STSFineGrain.jar 1 STSModelIndexNo EvaluationModeIndexNo LanguageCode 
 ## References
 If you wish to use this package in your paper or project, please include a reference to the following paper in which it was presented:
 
-**Fine-grained Semantic Textual Similarity for Serbian**, Vuk Batanović, Miloš Cvetanović, Boško Nikolić, in Proceedings of the 11th International Conference on Language Resources and Evaluation (LREC 2018), Miyazaki, Japan (2018).
+**[Fine-grained Semantic Textual Similarity for Serbian](http://www.lrec-conf.org/proceedings/lrec2018/pdf/442.pdf)**, Vuk Batanović, Miloš Cvetanović, Boško Nikolić, in Proceedings of the 11th International Conference on Language Resources and Evaluation (LREC 2018), pp. 1370-1378, Miyazaki, Japan (2018).
 
 Be sure to also cite the original paper of each STS model you use:
 * For the word overlap model: *[SemEval-2012 Task 6: A Pilot on Semantic Textual Similarity](http://www.aclweb.org/anthology/S12-1051)*, Eneko Agirre, Daniel Cer, Mona Diab, Aitor Gonzalez-Agirre, in Proceedings of the First Joint Conference on Lexical and Computational Semantics (*SEM), Montreal, Canada, pp. 385–393 (2012).
