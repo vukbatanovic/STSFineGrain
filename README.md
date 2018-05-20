@@ -78,7 +78,7 @@ Be sure to also cite the original paper of each STS model you use:
 * For the Islam and Inkpen model: *[Semantic Text Similarity Using Corpus-Based Word Similarity and String Similarity](http://www.site.uottawa.ca/~diana/publications/tkdd.pdf)*, Aminul Islam, Diana Inkpen, ACM Transactions on Knowledge Discovery from Data, 2(2), Article No. 10 (2008).
 * For the LInSTSS model: *[Semantic similarity of short texts in languages with a deficient natural language processing support](http://vukbatanovic.github.io/publication/dss_2013/)*, Bojan Furlan, Vuk Batanović, Boško Nikolić,  Decision Support Systems, 55(3), pp. 710–719 (2013).
 * For the POST STSS model: *[Using Part-of-Speech Tags as Deep-Syntax Indicators in Determining Short-Text Semantic Similarity](http://vukbatanovic.github.io/publication/comsis_2015/)*, Vuk Batanović, Dragan Bojić, Computer Science and Information Systems, 12(1), pp. 1–31 (2015).
-* For the POS-TF STSS model: *Fine-grained Semantic Textual Similarity for Serbian*, Vuk Batanović, Miloš Cvetanović, Boško Nikolić, in Proceedings of the 11th International Conference on Language Resources and Evaluation (LREC 2018), Miyazaki, Japan (2018).
+* For the POS-TF STSS model: *[Fine-grained Semantic Textual Similarity for Serbian](http://www.lrec-conf.org/proceedings/lrec2018/pdf/442.pdf)*, Vuk Batanović, Miloš Cvetanović, Boško Nikolić, in Proceedings of the 11th International Conference on Language Resources and Evaluation (LREC 2018), pp. 1370-1378, Miyazaki, Japan (2018).
 
 ## Additional Documentation
 Some non-trivial parts of the source code contain comments and some documentation in English.
