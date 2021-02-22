@@ -83,7 +83,7 @@ Be sure to also cite the original paper of each STS model you use:
 ## Additional Documentation
 Some non-trivial parts of the source code contain comments and some documentation in English.
 If you have any questions about the models' functioning, please review the source code, and the papers listed above.
-If no answer can be found, feel free to contact me at: vuk.batanovic / at / student.etf.bg.ac.rs
+If no answer can be found, feel free to contact me at: vuk.batanovic / at / ic.etf.bg.ac.rs
 
 ## License
 See the [license file](./LICENSE.md) for licensing information.
