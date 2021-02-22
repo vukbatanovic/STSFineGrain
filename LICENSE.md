@@ -6,5 +6,5 @@ Works derived from or using the STSFineGrain framework and source code cannot be
 
 All rights regarding the commercial use of the STSFineGrain framework and source code are reserved.
 All rights not explicitly granted to users of STSFineGrain are also retained.
-Should you wish to use STSFineGrain in a non-academic or commercial setting, please contact me at vuk.batanovic / at / student.etf.bg.ac.rs to obtain a suitable license.
+Should you wish to use STSFineGrain in a non-academic or commercial setting, please contact me at vuk.batanovic / at / ic.etf.bg.ac.rs to obtain a suitable license.
 
